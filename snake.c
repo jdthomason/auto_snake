@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include "snake.h"
 
+/*
+ * Function: create_snake()
+ * ------------------------
+ *
+ * Creates a linked list that we'll use for the snake and gives it an initial block.
+ */
 struct Snake create_snake(int win_width, int win_height) {
     struct SnakePart *new_block = (struct SnakePart*) malloc(sizeof(struct SnakePart));
 
@@ -19,12 +25,3 @@ struct Snake create_snake(int win_width, int win_height) {
 
     return new_snake;
 }
-
-void add_part() {
-    // something
-}
-
-void traverse_snake(struct Snake snake) {
-    // something
-}
-

@@ -16,7 +16,5 @@ struct Snake {
 };
 
 struct Snake create_snake(int win_width, int win_height);
-void add_part();
-void traverse_snake(struct Snake snake);
 
 #endif
